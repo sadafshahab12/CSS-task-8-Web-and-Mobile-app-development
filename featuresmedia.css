@@ -1,0 +1,118 @@
+@media only screen and (max-width: 600px) {
+  .features {
+  }
+  .row {
+    top: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+  }
+  .features h2 {
+    font-size: 27px;
+    font-weight: 900;
+    padding-bottom: 15px;
+    width: 80%;
+    margin: auto;
+    padding-top: 27px;
+  }
+  .text-col {
+    margin: 0;
+    text-align: center;
+  }
+  .text-col p {
+    font-size: 17px;
+    width: 89%;
+    margin-left: 19px;
+    font-family: sans-serif;
+    line-height: 25px;
+  }
+  .img-col img {
+    width: 88%;
+    margin: 12px 0px;
+    position: relative;
+    left: 20px;
+  }
+  .row:nth-child(2),
+  .row:nth-child(4) {
+    flex-direction: column-reverse;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+  }
+  .faq {
+    padding: 0;
+    margin-bottom: 54px;
+  }
+  .faq h2 {
+    font-size: 29px;
+    margin: auto;
+    padding-top: 31px;
+  }
+  .accordion {
+    margin: 26px auto;
+    max-width: 90%;
+  }
+  .content p {
+    line-height: 27px;
+  }
+  .faq small {
+    display: block;
+    width: 247px;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  .faq .email-signup {
+    background: transparent;
+    border: 1px solid grey;
+    width: 264px;
+    left: 0;
+    margin: auto;
+    padding: 9px;
+  }
+  .faq .email-signup input {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .footer {
+    padding: 19px;
+    font-size: 18px;
+  }
+  .first-col {
+    width: 229px;
+  }
+  .footer .row1 {
+    display: inline-flex;
+  }
+  .footer .col a {
+    font-size: 18px;
+    padding: 13px;
+    margin: 0;
+  }
+  .footer .col1 a {
+    margin: 6px auto;
+    width: 10rem;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .footer .col2 a {
+    width: 10rem;
+    margin: 6px auto;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .footer .col3 a {
+    width: 10rem;
+    margin: 6px auto;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .footer .col4 a {
+    margin: 6px auto;
+    width: 10rem;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .footer .col3:nth-child(){
+    order: 2;
+  }
+}

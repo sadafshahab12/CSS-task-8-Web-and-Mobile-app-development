@@ -1,0 +1,33 @@
+.features {
+
+  font-size: 22px;
+}
+.features h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 7%;
+  top: 1rem;
+  position: relative;
+  border-top: 6px solid rgb(35 35 35);
+}
+.text-col {
+  flex-basis: 43%;
+  margin: auto;
+  margin-left: 3rem;
+}
+.img-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
